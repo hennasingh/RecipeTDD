@@ -20,6 +20,11 @@ public class InMemoryFavorites implements Favorites {
     }
 
     public void put(String id, boolean value){
+
         mFavMap.put(id,value);
+    }
+
+    public void clear() {
+        mFavMap.clear();
     }
 }
